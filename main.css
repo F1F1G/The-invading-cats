@@ -19,8 +19,13 @@ body{
     background: linear-gradient(0deg, rgb(140, 197, 255)10%, rgba(0, 89, 116, 0)100%);
 }
 video{
-    background-size: cover;
-background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
 }
 
 
